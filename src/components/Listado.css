@@ -1,0 +1,15 @@
+ul{
+    text-align: center;
+    list-style: none;
+}
+
+#agregar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    width: 60%;
+}

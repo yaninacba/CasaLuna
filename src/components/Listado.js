@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./Listado.css";
+
 
 const listado = [{ id: 1, descripcion: 'Jabon Blanco', categoria: 'Limpieza', precio: 599.99 },
 { id: 2, descripcion: 'Vaso de vidrio', categoria: 'Bazar', precio: 399.99 },
@@ -32,6 +34,10 @@ export default function Listado() {
           </li>
         ))}
       </ul>
+     <div id="agregar">
+      <button >Agregar Producto</button>
+      </div>  
     </div>
+    
   );
 }
